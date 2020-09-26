@@ -1,0 +1,42 @@
+h2 {
+    margin: 0;
+}
+
+button {
+    background: none;
+    color: inherit;
+	border: none;
+	cursor: pointer;
+    outline: inherit;
+}
+
+.login {
+    min-width: 250px;
+    width: 20%;
+    display: flex;
+    flex-grow: 1;
+    align-self: center;
+    flex-direction: column;
+}
+
+.login-item {
+    align-self: flex-end;
+}
+
+.login-item > input {
+    margin-left: 20px;
+}
+
+.login-buttons {
+    margin-top: 20px;
+}
+
+.login-buttons > * {
+    width: 50%;
+}
+
+.hoverOrange:hover{
+    color: #ff7c43;
+}
+
+

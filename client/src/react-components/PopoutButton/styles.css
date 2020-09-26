@@ -1,0 +1,32 @@
+:root {
+    --container-width: 48px;
+    --container-height: 48px;
+}
+
+.popoutButton-container {
+    position: absolute;
+    height: var(--container-width);
+    width: var(--container-height);
+    background-clip: content-box;
+    z-index: 20;
+}
+
+.popoutButton {
+    position: absolute;
+    right: 0;
+    height: var(--container-width);
+    width: var(--container-height);
+    font-size: calc(0.5 * var(--container-height));
+    line-height: var(--container-height);
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border-radius: calc(0.5 * var(--container-height));
+    z-index: 20;
+}
+
+.popoutButton-children {
+    position: absolute;
+    transition: all 0.3s;
+    user-select: none;
+}

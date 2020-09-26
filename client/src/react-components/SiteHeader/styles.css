@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    height: 40px;
+    padding: 1.5vh 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+header > a {
+    text-decoration: none;
+}
+header > a > :first-child {
+    font-size: 1.5em;
+    color: white;
+}
+
+header > :not(:first-child) {
+    font-size: 1em;
+}
+
+header > div * {
+    font-size: 1em;
+}
+
+header > button {
+    margin-right: 0;
+}
+
+.siteTitle:hover {
+    color: rgb(255, 124, 67);
+}

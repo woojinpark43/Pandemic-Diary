@@ -1,0 +1,25 @@
+.news-container {
+    max-height: calc(100% - 60px);
+    flex-grow: 1;
+    overflow: scroll !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.news-container::-webkit-scrollbar {
+    display: none;
+}
+
+.news-article {
+    display: inline-block;
+    width: 96%;
+    padding-bottom: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+.news-article * {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}

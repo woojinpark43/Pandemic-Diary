@@ -1,0 +1,29 @@
+.chatmessage_container {
+    flex-grow: 1;
+    padding: 12px;
+    overflow: scroll !important;
+    height: 50%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.chatmessage_container::-webkit-scrollbar{
+    width: 0;
+}
+
+.username {
+    font-size: 12px;
+    text-align: left;
+}
+
+.content {
+    word-wrap: break-word;
+}
+
+#chatmessage_context {
+    width: 90%;
+}
+
+.add_chatmessage_container {
+    margin: 12px 0;
+}
